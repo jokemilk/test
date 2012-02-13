@@ -87,3 +87,4 @@ static void rtc_dropped_irq(unsigned long data)
 
 	kill_fasync(&rtc_async_queue, SIGIO, POLL_IN); 
 } 
+
